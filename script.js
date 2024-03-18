@@ -1,4 +1,4 @@
-const URL = "./my_model/";
+const URL = "./modelo/";
 
 
     let model, webcam, labelContainer, maxPredictions;
@@ -52,4 +52,3 @@ const URL = "./my_model/";
             labelContainer.childNodes[i].innerHTML = classPrediction;
         }
     }
-
